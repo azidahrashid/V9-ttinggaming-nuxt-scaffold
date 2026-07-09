@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "build": "nuxt generate",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "dev:3002": "nuxt dev --port 3002"
+
   },
   "dependencies": {
     "nuxt": "3.13.2"
