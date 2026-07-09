@@ -1,22 +1,16 @@
 {
-  "name": "ttinggaming-nuxt-scaffold",
-  "version": "0.1.0",
+  "name": "ttinggaming-nuxt-rebuild",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "extract:site": "node scripts/extract-site.mjs https://ttinggaming.com",
-    "clean:css": "node scripts/clean-css.mjs output/extracted-full-runtime-css.css app/assets/css/extracted.css",
-    "migrate:nuxt": "node scripts/convert-to-nuxt.mjs",
-    "migrate:all": "npm run extract:site && npm run clean:css && npm run migrate:nuxt"
+    "preview": "nuxt preview"
   },
   "dependencies": {
-    "nuxt": "latest"
+    "nuxt": "3.13.2"
   },
-  "devDependencies": {
-    "playwright": "latest"
-  }
+  "devDependencies": {}
 }

@@ -1,0 +1,16 @@
+Build validation for ttinggaming-nuxt-high-fidelity
+
+Validated commands:
+
+1. npm install
+Result: Passed. Dependencies installed successfully.
+Note: npm reported dependency audit warnings inherited from the Nuxt dependency tree. No install failure occurred.
+
+2. npm run build
+Result: Passed.
+Command executed Nuxt static generation successfully and produced .output/public.
+
+Runtime/deployment notes:
+- Frontend only.
+- No gambling, betting, payment, wallet, game execution, account session, or backend integrations are implemented.
+- Original remote assets from file.ttinggaming.com were blocked by 403 during inspection, so the project uses local SVG replacement assets.
